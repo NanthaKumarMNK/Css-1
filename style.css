@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    overflow-x: hidden;
+  }
 :root{
     --textColor : rgb(255, 255, 255);
 }
@@ -73,8 +76,8 @@ input{
 
 .section1{
     width: 82rem;
-    height: 20rem;
-    margin: 4rem auto;
+    height: 21rem;
+    margin: 5rem auto;
     display: flex;
     justify-content: space-between;
 }
@@ -122,3 +125,85 @@ img{
     width: 4rem;
     border-radius: 10px;
 } */
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 83rem;
+    height: 8rem;
+    margin: 5rem auto;
+}
+.number{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: var(--textColor);
+}
+.number p{
+    margin-left: 20px;
+}
+.num1{
+    background-color: #929DFF;
+}
+.num2{
+    background-color: #734CF2;
+}
+.num3{
+    background-color: #D288FF;
+}
+.num4{
+background-color: #000000;
+}
+.section3{
+    width: 83rem;
+    height: 30rem;
+    background-color: #483EFF;
+    display: flex;
+    margin:4.3rem auto ;
+    border-radius: 10px;
+}
+.S3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    height: 90%;
+    margin: auto;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    border-radius: 10px;
+}
+.info{
+    width: 70%;
+    height: 90%;
+    background-color: var(--textColor);
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+.tabText1{    
+    background-color: #BCE0F6;
+    color: var(--textColor);
+}
+.tabText2{
+    color: var(--textColor);
+    border: 4px solid var(--textColor);
+}
+button{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 3rem;
+    right: 6rem;
+    color: white;
+}
