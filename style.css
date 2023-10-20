@@ -10,22 +10,18 @@
     display: flex;
     justify-content: space-around;
     width: 100vw;
-    height: 127px;
+    height: 5rem;
     background-color: #6F6AF7;
     align-items: center;
     color: var(--textColor);
 }
 h2{
     font-family: Delius Unicase;
-    font-size: 61px;
-    font-weight: 700;
-    line-height: 79px;
-    text-align: left;
-
+    font-size: 3rem;
 }
 .navlist{
     font-family: DM Sans;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 47px;
     display: flex;
@@ -34,48 +30,95 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
-.menubar{
-    width: 50px;
-    height: 50px;
+
+.search{
+    display: flex;
+    align-items: center;
 }
 input{
-    height: 50px;
-    padding-left: 30px;
-    border-radius: 63px;
-    padding-top: 10px;
-    padding-right: 50px;
-}
-::placeholder{
-    font-family: DM Sans;
-    font-size: 24px;
+    height: 2rem;
+    width: 12rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 1.2rem;
     font-weight: 400;
-    line-height: 32px;
-    text-align: left;
+    line-height: 1rem;
+    padding-left: 1rem;
+    border-right: none;
+    border: none;
 }
+.searchIcon{
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    padding-top: 6px;
+    height: 32px;
+    width: 20px;
+}
+.menubar{
+    width: 45px;
+}
+
 .Vector{
     height: 8px;
     margin-bottom: 4px;
     margin-left: 2px;
 }
-.search{
-    margin-right: 50px;
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .section1{
-    width: 59rem;
-    height: 23rem;
+    width: 82rem;
+    height: 20rem;
     margin: 4rem auto;
     display: flex;
     justify-content: space-between;
 }
-.section2,.section3{
-    width: 59rem;
-}
+
 img{
     height: 100%;
+    width: 25%;
 }
 .text{
     height: 100%;
-    width: 60%;
+    width: 70%;
     background-color:#E5D8FF ;
     border-radius: 20px;
+
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 52px;
 }
+.Btext{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+/* .SmediaIcon{
+    position: sticky;
+    float: right;
+    gap: 10px;
+    
+
+}
+.chatbot{
+    position: fixed;
+    right: 6rem;
+    bottom: 3rem;
+    width: 120px;
+    height: 120px;
+}
+.SIcon{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 10px;
+} */
