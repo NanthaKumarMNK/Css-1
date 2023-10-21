@@ -2,13 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    
+
+/* font-family: 'Inter', sans-serif; */
 }
+
 body {
     overflow-x: hidden;
-  }
+}
+
 :root{
     --textColor : rgb(255, 255, 255);
 }
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -17,16 +24,20 @@ body {
     background-color: #6F6AF7;
     align-items: center;
     color: var(--textColor);
+    position: sticky;
+    top: 0;
 }
+
 h2{
     font-family: Delius Unicase;
     font-size: 3rem;
 }
+
 .navlist{
-    font-family: DM Sans;
-    font-size: 2rem;
-    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
     line-height: 47px;
+    font-size: 2rem;
+
     display: flex;
     list-style: none;
     width: 65%;
@@ -74,10 +85,30 @@ input{
     align-items: center;
 }
 
+
+.SmediaIcon{
+    position: sticky;
+    float: right;
+    top: 9rem;
+    margin-top: 10rem;
+}
+.SIcon{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 10px;
+    padding: 10px;
+   margin-bottom: 5px;
+}
+
+
 .section1{
     width: 82rem;
     height: 21rem;
-    margin: 5rem auto;
+    margin: 5rem 0 5rem 6.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -94,57 +125,55 @@ img{
 
     color: #6F7373;
     font-family: DM Sans;
+    font-weight: ;
     font-size: 1.7rem;
-    font-weight: 400;
     line-height: 52px;
 }
 .Btext{
     margin-left: 2.5rem;
     margin-top: 1rem;
 }
-/* .SmediaIcon{
-    position: sticky;
-    float: right;
-    gap: 10px;
-    
 
-}
+
 .chatbot{
     position: fixed;
     right: 6rem;
-    bottom: 3rem;
-    width: 120px;
-    height: 120px;
+    bottom: 1rem;
+    width: 5rem;
+    height: 5rem;
+    z-index: 1;
+    background-color: var(--textColor);
+    border-radius: 50%;
+    padding: 10px;
 }
-.SIcon{
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 10px;
-} */
+
+
 .section2{
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     width: 83rem;
-    height: 8rem;
-    margin: 5rem auto;
+    height: 7rem;
+    margin: 6rem auto;
 }
 .number{
     width: 20%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     border-radius: 10px;
     color: var(--textColor);
+    display: flex;
+    flex-direction: column;
+    
 }
 .number p{
     margin-left: 20px;
+    margin-top: 8px;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.3rem;
 }
 .num1{
     background-color: #929DFF;
@@ -158,6 +187,8 @@ img{
 .num4{
 background-color: #000000;
 }
+
+
 .section3{
     width: 83rem;
     height: 30rem;
@@ -174,6 +205,9 @@ background-color: #000000;
     width: 25%;
     height: 90%;
     margin: auto;
+
+    
+
 }
 .tab{
     display: flex;
@@ -182,6 +216,12 @@ background-color: #000000;
     width: 80%;
     height: 20%;
     border-radius: 10px;
+
+    font-family: DM Sans;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.05rem;
 }
 .info{
     width: 70%;
@@ -191,9 +231,32 @@ background-color: #000000;
     border-radius: 10px;
     position: relative;
 }
+h3{
+    margin: 50px 0 20px 2.5rem;
+
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+
+
+}
+.information{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 10px 4.5rem;
+
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.05em;
+   
+}
 .tabText1{    
-    background-color: #BCE0F6;
-    color: var(--textColor);
+    background-color:#BCE0F6 ;
+    color: black;
 }
 .tabText2{
     color: var(--textColor);
@@ -201,9 +264,30 @@ background-color: #000000;
 }
 button{
     display: flex;
+    justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 3rem;
-    right: 6rem;
-    color: white;
+    bottom: 2rem;
+    right: 2rem;
+    width: 8rem;
+    height: 4rem;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+}
+button p{
+    color: var(--textColor);
+   margin-left:15px ;
+    
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+
+}
+button p img{
+    margin-left: 5px;
 }
